@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPPLY-PERF - Dashboard Interactif</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <header class="flex justify-between items-center px-8 py-4 bg-gray-800 border-b border-gray-700 shadow-2xl">
+            <div class="text-xl font-bold text-white flex items-center">
+                <span class="text-2xl mr-2">📊</span>
+                SUPPLY-PERF Dashboard
+            </div>
+            <div class="text-sm text-gray-400">
+                Dashboard interactif pour la gestion des références et l'évaluation SQCDP
+            </div>
+        </header>
+        <div class="max-w-7xl mx-auto px-8 py-8">
+            <div class="bg-white10 backdrop-blur-xl border border-white20 rounded-2xl p-8 shadow-2xl fade-in">
+                <h1 class="text-4xl font-bold text-white mb-4">Bienvenue sur SUPPLY-PERF</h1>
+                <p class="text-xl text-gray-300 mb-6">
+                    Plateforme de gestion des fournisseurs et d'évaluation de performance
+                </p>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg p-6 text-white shadow-lg hover:scale-105 transition-all">
+                        <div class="text-3xl font-bold mb-2">150+</div>
+                        <div class="text-lg">Fournisseurs</div>
+                    </div>
+                    <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-6 text-white shadow-lg hover:scale-105 transition-all">
+                        <div class="text-3xl font-bold mb-2">85%</div>
+                        <div class="text-lg">Taux de Conformité</div>
+                    </div>
+                    <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-6 text-white shadow-lg hover:scale-105 transition-all">
+                        <div class="text-3xl font-bold mb-2">24/7</div>
+                        <div class="text-lg">Support Disponible</div>
+                    </div>
+                </div>
+                <div class="mt-8 p-6 bg-green-50020 border border-green-50030 rounded-xl">
+                    <h2 class="text-2xl font-bold text-green-300 mb-4">✅ Projet déployé avec succès sur Netlify!</h2>
+                    <p class="text-gray-300 text-lg">Votre dashboard SUPPLY-PERF est maintenant accessible en ligne et prêt pour une utilisation en production.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
